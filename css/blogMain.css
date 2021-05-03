@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .tem {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+   
+    
+  }
+  .Follow-text {
+   text-decoration: underline;
+   
+  
+
+  }
+ 
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 50px;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    
+
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+.FirstBlog {
+  
+    height: fit-content;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #aaa;
+    padding: 20px;
+    border: green;
+
+}
+.SECBlog {
+
+  height: fit-content;
+  position: absolute;
+  top: 45%;
+  left: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  padding: 20px;
+  border: green;
+
+
+}
+
+.THDBlog {
+
+  height: fit-content;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  padding: 20px;
+  border: green;
+
+
+
+}
+
+.FOURTHtBlog  {
+
+  height: fit-content;
+  position: absolute;
+  top: 18%;
+  left: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  padding: 20px;
+  border: green;
+
+
+
+
+}
+
+.FIFTHtBlog{
+
+
+  height: fit-content;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  padding: 20px;
+  border: green;
+
+
+
+
+}
+
+
+.SIXTHtBlog{
+
+  height: fit-content;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #aaa;
+  padding: 20px;
+  border: green;
+
+
+
+
+}
+
+.footer2 {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 35.5%;
+
+}
+.card2 {
+
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+ border-radius: 40%;
+ size: 30px;
+
+}
+
+.btn {
+
+  font-size: large;
+  width: 100% ;
+  padding: 5%;
+  background-color: lightblue;
+  color: black;
+  border-radius: 24%;
+  border: #f1f1f1;
+  margin: 5%;
+  cursor:pointer;
+}
