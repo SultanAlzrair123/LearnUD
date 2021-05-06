@@ -1,0 +1,17 @@
+.profile-pic {
+
+    border-radius: 100%;
+    height: 20%;
+    width: 20%;
+   flex: auto;
+   display:flex;
+   
+  }
+  .imgTemp {
+    display: flex;
+    top: 100px;
+    left: 25%;
+    height: 150px;
+    width: 400px;
+    
+    }
