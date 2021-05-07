@@ -1,6 +1,5 @@
-@import url("../css/indexStyle.css");
-@import url("../css/imgStyle.css");
-@import url("../html/BlogHome.html");
+@import url("css/indexStyle.css");
+@import url("css/imgStyle.css");
 
 * {
   margin: 0;
@@ -35,6 +34,7 @@ body {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
+  width: 10%;
 }
 .Follow-text {
   text-decoration: underline;
