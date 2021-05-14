@@ -18,6 +18,19 @@ body {
   background: white;
 }
 
+@media (min-width: 600px) {
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px auto 30px;
+    grid-template-areas:
+    "nav nav"
+    "hd post"
+    "ft ft";
+  }
+}
+
 .leftcolumn {
   float: left;
   width: 60%;
@@ -65,6 +78,14 @@ body {
   color: black;
   float: left;
   padding: 8px 16px;
+}
+
+@media screen and (max-width:320px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -117,8 +138,25 @@ h1 h2 h3 h4 h5 h6 {
   text-decoration: none;
   color: black;
 }
-
+img{
+	max-width:100%
+}
 figcaption {
   text-align: center;
   margin-right: 55%;
+}
+@media screen and (max-width:1270px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  img {
+	      height: auto !Important;
+  }
+}
+@media screen and (max-width:692px) {
+  h2{
+	  font-size:25px
+  }
 }
